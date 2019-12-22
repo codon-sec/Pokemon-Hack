@@ -1,0 +1,1047 @@
+Archive member included because of file (symbol)
+
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+                              obj/Joystick.o (__mulhi3)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o (exit)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+                              obj/Joystick.o (__do_copy_data)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+                              obj/Joystick.o (__do_clear_bss)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eerd_byte_atmega16u2.o)
+                              obj/EndpointStream_AVR8.o (__eerd_byte_m16u2)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+                              obj/EndpointStream_AVR8.o (__eeupd_byte_m16u2)
+
+Allocating common symbols
+Common symbol       size              file
+
+last_report         0x8               obj/Joystick.o
+USB_IsInitialized   0x1               obj/USBTask.o
+USB_DeviceState     0x1               obj/USBTask.o
+USB_Device_ConfigurationNumber
+                    0x1               obj/DeviceStandardReq.o
+USB_Device_CurrentlySelfPowered
+                    0x1               obj/DeviceStandardReq.o
+USB_ControlRequest  0x8               obj/USBTask.o
+USB_Device_RemoteWakeupEnabled
+                    0x1               obj/DeviceStandardReq.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+ .text          0x00000000        0x0 obj/Joystick.o
+ .text          0x00000000        0x0 obj/Descriptors.o
+ .bss           0x00000000        0x0 obj/Descriptors.o
+ .text          0x00000000        0x0 obj/HIDParser.o
+ .bss           0x00000000        0x0 obj/HIDParser.o
+ .text.USB_ProcessHIDReport
+                0x00000000      0x742 obj/HIDParser.o
+ .text.USB_GetHIDReportItemInfo
+                0x00000000       0xbc obj/HIDParser.o
+ .text.USB_SetHIDReportItemInfo
+                0x00000000       0xc4 obj/HIDParser.o
+ .text.USB_GetHIDReportSize
+                0x00000000       0x62 obj/HIDParser.o
+ .text          0x00000000        0x0 obj/Device_AVR8.o
+ .bss           0x00000000        0x0 obj/Device_AVR8.o
+ .text.USB_Device_SendRemoteWakeup
+                0x00000000       0x2c obj/Device_AVR8.o
+ .text          0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .bss           0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Discard_Stream
+                0x00000000       0x6a obj/EndpointStream_AVR8.o
+ .text.Endpoint_Null_Stream
+                0x00000000       0x6a obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_BE
+                0x00000000       0xa4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_BE
+                0x00000000       0xa4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_LE
+                0x00000000       0x9a obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_BE
+                0x00000000       0xa6 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_LE
+                0x00000000       0x9c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_BE
+                0x00000000       0xa8 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_LE
+                0x00000000       0xa0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_BE
+                0x00000000       0xa8 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_Stream_BE
+                0x00000000       0xd0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_LE
+                0x00000000       0x78 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_BE
+                0x00000000       0x7c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_PStream_BE
+                0x00000000       0xda obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_LE
+                0x00000000       0xe8 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_BE
+                0x00000000      0x106 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_LE
+                0x00000000       0x90 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_BE
+                0x00000000       0x8e obj/EndpointStream_AVR8.o
+ .text          0x00000000        0x0 obj/Endpoint_AVR8.o
+ .bss           0x00000000        0x0 obj/Endpoint_AVR8.o
+ .text.Endpoint_ConfigureEndpointTable
+                0x00000000       0x7a obj/Endpoint_AVR8.o
+ .text.Endpoint_ClearEndpoints
+                0x00000000       0x28 obj/Endpoint_AVR8.o
+ .text          0x00000000        0x0 obj/Host_AVR8.o
+ .bss           0x00000000        0x0 obj/Host_AVR8.o
+ .text          0x00000000        0x0 obj/PipeStream_AVR8.o
+ .bss           0x00000000        0x0 obj/PipeStream_AVR8.o
+ .text          0x00000000        0x0 obj/Pipe_AVR8.o
+ .bss           0x00000000        0x0 obj/Pipe_AVR8.o
+ .text          0x00000000        0x0 obj/USBController_AVR8.o
+ .bss           0x00000000        0x0 obj/USBController_AVR8.o
+ .text.USB_Disable
+                0x00000000       0x2e obj/USBController_AVR8.o
+ .text          0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .bss           0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .text          0x00000000        0x0 obj/ConfigDescriptors.o
+ .bss           0x00000000        0x0 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptor
+                0x00000000       0x38 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfType
+                0x00000000       0x48 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeBefore
+                0x00000000       0x58 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeAfter
+                0x00000000       0x3e obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorComp
+                0x00000000       0x66 obj/ConfigDescriptors.o
+ .text          0x00000000        0x0 obj/DeviceStandardReq.o
+ .bss           0x00000000        0x0 obj/DeviceStandardReq.o
+ .text          0x00000000        0x0 obj/Events.o
+ .bss           0x00000000        0x0 obj/Events.o
+ .text.USB_Event_Stub_2
+                0x00000000        0x2 obj/Events.o
+ .text.USB_Event_Stub_3
+                0x00000000        0x2 obj/Events.o
+ .text          0x00000000        0x0 obj/HostStandardReq.o
+ .bss           0x00000000        0x0 obj/HostStandardReq.o
+ .text          0x00000000        0x0 obj/USBTask.o
+ .bss           0x00000000        0x0 obj/USBTask.o
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eerd_byte_atmega16u2.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eerd_byte_atmega16u2.o)
+ .text.avr-libc
+                0x00000000       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eerd_byte_atmega16u2.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+ .text.avr-libc
+                0x00000000       0x24 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00010000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+LOAD obj/Joystick.o
+LOAD obj/Descriptors.o
+LOAD obj/HIDParser.o
+LOAD obj/Device_AVR8.o
+LOAD obj/EndpointStream_AVR8.o
+LOAD obj/Endpoint_AVR8.o
+LOAD obj/Host_AVR8.o
+LOAD obj/PipeStream_AVR8.o
+LOAD obj/Pipe_AVR8.o
+LOAD obj/USBController_AVR8.o
+LOAD obj/USBInterrupt_AVR8.o
+LOAD obj/ConfigDescriptors.o
+LOAD obj/DeviceStandardReq.o
+LOAD obj/Events.o
+LOAD obj/HostStandardReq.o
+LOAD obj/USBTask.o
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libm.a
+START GROUP
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libm.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xd6e
+ *(.vectors)
+ .vectors       0x00000000       0x74 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000074                . = ALIGN (0x2)
+                0x00000074                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000074        0x0 linker stubs
+ *(.trampolines*)
+                0x00000074                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data  0x00000074       0xd9 obj/Descriptors.o
+                0x00000074                ProductString
+                0x0000009a                ManufacturerString
+                0x000000b8                LanguageString
+                0x000000bc                ConfigurationDescriptor
+                0x000000e5                DeviceDescriptor
+                0x000000f7                JoystickReport
+                0x0000014e                . = ALIGN (0x2)
+ *fill*         0x0000014d        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000014e                __ctors_start = .
+ *(.ctors)
+                0x0000014e                __ctors_end = .
+                0x0000014e                __dtors_start = .
+ *(.dtors)
+                0x0000014e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000014e        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+                0x0000014e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000014e        0xc /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000015a       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+                0x0000015a                __do_copy_data
+ .init4         0x00000170       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+                0x00000170                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000180        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+ *(.init9)
+ *(.text)
+ .text          0x00000184        0x2 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+                0x00000184                __vector_20
+                0x00000184                __vector_28
+                0x00000184                __vector_1
+                0x00000184                __vector_24
+                0x00000184                __vector_12
+                0x00000184                __bad_interrupt
+                0x00000184                __vector_6
+                0x00000184                __vector_3
+                0x00000184                __vector_23
+                0x00000184                __vector_25
+                0x00000184                __vector_13
+                0x00000184                __vector_17
+                0x00000184                __vector_19
+                0x00000184                __vector_7
+                0x00000184                __vector_27
+                0x00000184                __vector_5
+                0x00000184                __vector_4
+                0x00000184                __vector_9
+                0x00000184                __vector_2
+                0x00000184                __vector_21
+                0x00000184                __vector_15
+                0x00000184                __vector_8
+                0x00000184                __vector_26
+                0x00000184                __vector_14
+                0x00000184                __vector_10
+                0x00000184                __vector_16
+                0x00000184                __vector_18
+                0x00000184                __vector_22
+                0x00000186                . = ALIGN (0x2)
+ *(.text.*)
+ .text.SetupHardware
+                0x00000186       0x2a obj/Joystick.o
+                0x00000186                SetupHardware
+ .text.EVENT_USB_Device_Connect
+                0x000001b0        0x2 obj/Joystick.o
+                0x000001b0                EVENT_USB_Device_Connect
+ .text.EVENT_USB_Device_Disconnect
+                0x000001b2        0x2 obj/Joystick.o
+                0x000001b2                EVENT_USB_Device_Disconnect
+ .text.EVENT_USB_Device_ConfigurationChanged
+                0x000001b4       0x10 obj/Joystick.o
+                0x000001b4                EVENT_USB_Device_ConfigurationChanged
+ .text.EVENT_USB_Device_ControlRequest
+                0x000001c4        0x2 obj/Joystick.o
+                0x000001c4                EVENT_USB_Device_ControlRequest
+ .text.GetNextReport
+                0x000001c6      0x1de obj/Joystick.o
+                0x000001c6                GetNextReport
+ .text.HID_Task
+                0x000003a4       0x90 obj/Joystick.o
+                0x000003a4                HID_Task
+ .text.startup.main
+                0x00000434        0xa obj/Joystick.o
+                0x00000434                main
+ .text.CALLBACK_USB_GetDescriptor
+                0x0000043e       0x86 obj/Descriptors.o
+                0x0000043e                CALLBACK_USB_GetDescriptor
+ .text.Endpoint_Write_Stream_LE
+                0x000004c4       0x90 obj/EndpointStream_AVR8.o
+                0x000004c4                Endpoint_Write_Stream_LE
+ .text.Endpoint_Read_Stream_LE
+                0x00000554       0x90 obj/EndpointStream_AVR8.o
+                0x00000554                Endpoint_Read_Stream_LE
+ .text.Endpoint_Write_Control_Stream_LE
+                0x000005e4       0xc8 obj/EndpointStream_AVR8.o
+                0x000005e4                Endpoint_Write_Control_Stream_LE
+ .text.Endpoint_Write_Control_PStream_LE
+                0x000006ac       0xcc obj/EndpointStream_AVR8.o
+                0x000006ac                Endpoint_Write_Control_PStream_LE
+ .text.Endpoint_ConfigureEndpoint_Prv
+                0x00000778       0x6a obj/Endpoint_AVR8.o
+                0x00000778                Endpoint_ConfigureEndpoint_Prv
+ .text.Endpoint_ClearStatusStage
+                0x000007e2       0x42 obj/Endpoint_AVR8.o
+                0x000007e2                Endpoint_ClearStatusStage
+ .text.Endpoint_WaitUntilReady
+                0x00000824       0x60 obj/Endpoint_AVR8.o
+                0x00000824                Endpoint_WaitUntilReady
+ .text.USB_ResetInterface
+                0x00000884       0x72 obj/USBController_AVR8.o
+                0x00000884                USB_ResetInterface
+ .text.USB_Init
+                0x000008f6       0x12 obj/USBController_AVR8.o
+                0x000008f6                USB_Init
+ .text.USB_INT_DisableAllInterrupts
+                0x00000908        0x6 obj/USBInterrupt_AVR8.o
+                0x00000908                USB_INT_DisableAllInterrupts
+ .text.USB_INT_ClearAllInterrupts
+                0x0000090e        0x6 obj/USBInterrupt_AVR8.o
+                0x0000090e                USB_INT_ClearAllInterrupts
+ .text.__vector_11
+                0x00000914      0x148 obj/USBInterrupt_AVR8.o
+                0x00000914                __vector_11
+ .text.USB_Device_ProcessControlRequest
+                0x00000a5c      0x2b2 obj/DeviceStandardReq.o
+                0x00000a5c                USB_Device_ProcessControlRequest
+ .text.USB_Event_Stub
+                0x00000d0e        0x2 obj/Events.o
+                0x00000d0e                EVENT_USB_Device_WakeUp
+                0x00000d0e                USB_Event_Stub
+                0x00000d0e                EVENT_USB_Device_Suspend
+                0x00000d0e                EVENT_USB_Device_StartOfFrame
+                0x00000d0e                EVENT_USB_Device_Reset
+ .text.USB_USBTask
+                0x00000d10       0x38 obj/USBTask.o
+                0x00000d10                USB_USBTask
+ .text.libgcc.mul
+                0x00000d48       0x22 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+                0x00000d48                __mulhi3
+                0x00000d6a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000d6a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+                0x00000d6a                exit
+                0x00000d6a                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000d6a        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000d6e                _etext = .
+
+.data           0x00800100      0x1a4 load address 0x00000d6e
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+ .data          0x00800100        0x0 obj/Joystick.o
+ .data          0x00800100        0x0 obj/Descriptors.o
+ .data          0x00800100        0x0 obj/HIDParser.o
+ .data          0x00800100        0x0 obj/Device_AVR8.o
+ .data          0x00800100        0x0 obj/EndpointStream_AVR8.o
+ .data          0x00800100        0x0 obj/Endpoint_AVR8.o
+ .data          0x00800100        0x0 obj/Host_AVR8.o
+ .data          0x00800100        0x0 obj/PipeStream_AVR8.o
+ .data          0x00800100        0x0 obj/Pipe_AVR8.o
+ .data          0x00800100        0x0 obj/USBController_AVR8.o
+ .data          0x00800100        0x0 obj/USBInterrupt_AVR8.o
+ .data          0x00800100        0x0 obj/ConfigDescriptors.o
+ .data          0x00800100        0x0 obj/DeviceStandardReq.o
+ .data          0x00800100        0x0 obj/Events.o
+ .data          0x00800100        0x0 obj/HostStandardReq.o
+ .data          0x00800100        0x0 obj/USBTask.o
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eerd_byte_atmega16u2.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x00800100      0x1a4 obj/Joystick.o
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008002a4                . = ALIGN (0x2)
+                0x008002a4                _edata = .
+                0x008002a4                PROVIDE (__data_end, .)
+
+.bss            0x008002a4       0x24
+                0x008002a4                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008002a4        0xf obj/Joystick.o
+                0x008002a4                portsval
+                0x008002a6                duration_count
+                0x008002a8                bufindex
+                0x008002aa                ypos
+                0x008002ac                xpos
+                0x008002ae                report_count
+                0x008002b0                echoes
+                0x008002b2                state
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008002b3        0x8 obj/Joystick.o
+                0x008002b3                last_report
+ COMMON         0x008002bb        0x3 obj/DeviceStandardReq.o
+                0x008002bb                USB_Device_ConfigurationNumber
+                0x008002bc                USB_Device_CurrentlySelfPowered
+                0x008002bd                USB_Device_RemoteWakeupEnabled
+ COMMON         0x008002be        0xa obj/USBTask.o
+                0x008002be                USB_IsInitialized
+                0x008002bf                USB_DeviceState
+                0x008002c0                USB_ControlRequest
+                0x008002c8                PROVIDE (__bss_end, .)
+                0x00000d6e                __data_load_start = LOADADDR (.data)
+                0x00000f12                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008002c8        0x0
+                0x008002c8                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008002c8                PROVIDE (__noinit_end, .)
+                0x008002c8                _end = .
+                0x008002c8                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 obj/Joystick.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 obj/Descriptors.o
+ .comment       0x00000000       0x12 obj/HIDParser.o
+ .comment       0x00000000       0x12 obj/Device_AVR8.o
+ .comment       0x00000000       0x12 obj/EndpointStream_AVR8.o
+ .comment       0x00000000       0x12 obj/Endpoint_AVR8.o
+ .comment       0x00000000       0x12 obj/Host_AVR8.o
+ .comment       0x00000000       0x12 obj/PipeStream_AVR8.o
+ .comment       0x00000000       0x12 obj/Pipe_AVR8.o
+ .comment       0x00000000       0x12 obj/USBController_AVR8.o
+ .comment       0x00000000       0x12 obj/USBInterrupt_AVR8.o
+ .comment       0x00000000       0x12 obj/ConfigDescriptors.o
+ .comment       0x00000000       0x12 obj/DeviceStandardReq.o
+ .comment       0x00000000       0x12 obj/Events.o
+ .comment       0x00000000       0x12 obj/HostStandardReq.o
+ .comment       0x00000000       0x12 obj/USBTask.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 obj/Joystick.o
+ .debug_aranges
+                0x00000058       0x20 obj/Descriptors.o
+ .debug_aranges
+                0x00000078       0x38 obj/HIDParser.o
+ .debug_aranges
+                0x000000b0       0x20 obj/Device_AVR8.o
+ .debug_aranges
+                0x000000d0       0xc8 obj/EndpointStream_AVR8.o
+ .debug_aranges
+                0x00000198       0x40 obj/Endpoint_AVR8.o
+ .debug_aranges
+                0x000001d8       0x18 obj/Host_AVR8.o
+ .debug_aranges
+                0x000001f0       0x18 obj/PipeStream_AVR8.o
+ .debug_aranges
+                0x00000208       0x18 obj/Pipe_AVR8.o
+ .debug_aranges
+                0x00000220       0x30 obj/USBController_AVR8.o
+ .debug_aranges
+                0x00000250       0x30 obj/USBInterrupt_AVR8.o
+ .debug_aranges
+                0x00000280       0x40 obj/ConfigDescriptors.o
+ .debug_aranges
+                0x000002c0       0x20 obj/DeviceStandardReq.o
+ .debug_aranges
+                0x000002e0       0x30 obj/Events.o
+ .debug_aranges
+                0x00000310       0x18 obj/HostStandardReq.o
+ .debug_aranges
+                0x00000328       0x20 obj/USBTask.o
+ .debug_aranges
+                0x00000348       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .debug_aranges
+                0x00000368       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000388       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000003a8       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5611
+ *(.debug_info)
+ .debug_info    0x00000000      0x900 obj/Joystick.o
+ .debug_info    0x00000900      0x6ed obj/Descriptors.o
+ .debug_info    0x00000fed      0x741 obj/HIDParser.o
+ .debug_info    0x0000172e       0xd2 obj/Device_AVR8.o
+ .debug_info    0x00001800     0x1803 obj/EndpointStream_AVR8.o
+ .debug_info    0x00003003      0x614 obj/Endpoint_AVR8.o
+ .debug_info    0x00003617       0x56 obj/Host_AVR8.o
+ .debug_info    0x0000366d       0x56 obj/PipeStream_AVR8.o
+ .debug_info    0x000036c3       0x56 obj/Pipe_AVR8.o
+ .debug_info    0x00003719      0x46b obj/USBController_AVR8.o
+ .debug_info    0x00003b84      0x5b8 obj/USBInterrupt_AVR8.o
+ .debug_info    0x0000413c      0x3cd obj/ConfigDescriptors.o
+ .debug_info    0x00004509      0xa6d obj/DeviceStandardReq.o
+ .debug_info    0x00004f76       0xde obj/Events.o
+ .debug_info    0x00005054       0x56 obj/HostStandardReq.o
+ .debug_info    0x000050aa      0x26b obj/USBTask.o
+ .debug_info    0x00005315       0xbf /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .debug_info    0x000053d4       0xbf /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .debug_info    0x00005493       0xbf /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .debug_info    0x00005552       0xbf /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1653
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x363 obj/Joystick.o
+ .debug_abbrev  0x00000363      0x166 obj/Descriptors.o
+ .debug_abbrev  0x000004c9      0x22d obj/HIDParser.o
+ .debug_abbrev  0x000006f6       0x80 obj/Device_AVR8.o
+ .debug_abbrev  0x00000776      0x224 obj/EndpointStream_AVR8.o
+ .debug_abbrev  0x0000099a      0x222 obj/Endpoint_AVR8.o
+ .debug_abbrev  0x00000bbc       0x26 obj/Host_AVR8.o
+ .debug_abbrev  0x00000be2       0x26 obj/PipeStream_AVR8.o
+ .debug_abbrev  0x00000c08       0x26 obj/Pipe_AVR8.o
+ .debug_abbrev  0x00000c2e      0x18d obj/USBController_AVR8.o
+ .debug_abbrev  0x00000dbb      0x1d5 obj/USBInterrupt_AVR8.o
+ .debug_abbrev  0x00000f90      0x183 obj/ConfigDescriptors.o
+ .debug_abbrev  0x00001113      0x2c9 obj/DeviceStandardReq.o
+ .debug_abbrev  0x000013dc       0x99 obj/Events.o
+ .debug_abbrev  0x00001475       0x26 obj/HostStandardReq.o
+ .debug_abbrev  0x0000149b      0x168 obj/USBTask.o
+ .debug_abbrev  0x00001603       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .debug_abbrev  0x00001617       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .debug_abbrev  0x0000162b       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x0000163f       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000     0x37cb
+ *(.debug_line)
+ .debug_line    0x00000000      0x476 obj/Joystick.o
+ .debug_line    0x00000476      0x21d obj/Descriptors.o
+ .debug_line    0x00000693      0x59e obj/HIDParser.o
+ .debug_line    0x00000c31      0x11f obj/Device_AVR8.o
+ .debug_line    0x00000d50     0x14ff obj/EndpointStream_AVR8.o
+ .debug_line    0x0000224f      0x48e obj/Endpoint_AVR8.o
+ .debug_line    0x000026dd       0x1a obj/Host_AVR8.o
+ .debug_line    0x000026f7       0x1a obj/PipeStream_AVR8.o
+ .debug_line    0x00002711       0x1a obj/Pipe_AVR8.o
+ .debug_line    0x0000272b      0x2b4 obj/USBController_AVR8.o
+ .debug_line    0x000029df      0x3d2 obj/USBInterrupt_AVR8.o
+ .debug_line    0x00002db1      0x1f5 obj/ConfigDescriptors.o
+ .debug_line    0x00002fa6      0x470 obj/DeviceStandardReq.o
+ .debug_line    0x00003416       0xad obj/Events.o
+ .debug_line    0x000034c3       0x1a obj/HostStandardReq.o
+ .debug_line    0x000034dd      0x170 obj/USBTask.o
+ .debug_line    0x0000364d       0x67 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+ .debug_line    0x000036b4       0x58 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+ .debug_line    0x0000370c       0x61 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+ .debug_line    0x0000376d       0x5e /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+
+.debug_frame    0x00000000      0x8b4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb0 obj/Joystick.o
+ .debug_frame   0x000000b0       0x24 obj/Descriptors.o
+ .debug_frame   0x000000d4      0x10c obj/HIDParser.o
+ .debug_frame   0x000001e0       0x24 obj/Device_AVR8.o
+ .debug_frame   0x00000204      0x3b4 obj/EndpointStream_AVR8.o
+ .debug_frame   0x000005b8       0x78 obj/Endpoint_AVR8.o
+ .debug_frame   0x00000630       0x44 obj/USBController_AVR8.o
+ .debug_frame   0x00000674       0x8c obj/USBInterrupt_AVR8.o
+ .debug_frame   0x00000700      0x108 obj/ConfigDescriptors.o
+ .debug_frame   0x00000808       0x3c obj/DeviceStandardReq.o
+ .debug_frame   0x00000844       0x44 obj/Events.o
+ .debug_frame   0x00000888       0x2c obj/USBTask.o
+
+.debug_str      0x00000000     0x25b2
+ *(.debug_str)
+ .debug_str     0x00000000      0x772 obj/Joystick.o
+                                0x7cf (size before relaxing)
+ .debug_str     0x00000772      0x772 obj/Descriptors.o
+                                0x92e (size before relaxing)
+ .debug_str     0x00000ee4      0x49e obj/HIDParser.o
+                                0x6cc (size before relaxing)
+ .debug_str     0x00001382       0x78 obj/Device_AVR8.o
+                                0x208 (size before relaxing)
+ .debug_str     0x000013fa      0x471 obj/EndpointStream_AVR8.o
+                                0x877 (size before relaxing)
+ .debug_str     0x0000186b      0x26c obj/Endpoint_AVR8.o
+                                0x62a (size before relaxing)
+ .debug_str     0x00001ad7       0x2e obj/Host_AVR8.o
+                                0x1a7 (size before relaxing)
+ .debug_str     0x00001b05       0x34 obj/PipeStream_AVR8.o
+                                0x1ad (size before relaxing)
+ .debug_str     0x00001b39       0x2e obj/Pipe_AVR8.o
+                                0x1a7 (size before relaxing)
+ .debug_str     0x00001b67      0x239 obj/USBController_AVR8.o
+                                0x540 (size before relaxing)
+ .debug_str     0x00001da0       0xd4 obj/USBInterrupt_AVR8.o
+                                0x4eb (size before relaxing)
+ .debug_str     0x00001e74      0x228 obj/ConfigDescriptors.o
+                                0x3f0 (size before relaxing)
+ .debug_str     0x0000209c      0x431 obj/DeviceStandardReq.o
+                                0x9b9 (size before relaxing)
+ .debug_str     0x000024cd       0x57 obj/Events.o
+                                0x1d8 (size before relaxing)
+ .debug_str     0x00002524       0x2f obj/HostStandardReq.o
+                                0x1a8 (size before relaxing)
+ .debug_str     0x00002553       0x5f obj/USBTask.o
+                                0x38f (size before relaxing)
+
+.debug_loc      0x00000000     0x3c19
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x117 obj/Joystick.o
+ .debug_loc     0x00000117      0x24b obj/Descriptors.o
+ .debug_loc     0x00000362      0xa57 obj/HIDParser.o
+ .debug_loc     0x00000db9     0x1f54 obj/EndpointStream_AVR8.o
+ .debug_loc     0x00002d0d      0x3fe obj/Endpoint_AVR8.o
+ .debug_loc     0x0000310b      0x220 obj/USBInterrupt_AVR8.o
+ .debug_loc     0x0000332b      0x5bd obj/ConfigDescriptors.o
+ .debug_loc     0x000038e8      0x2e8 obj/DeviceStandardReq.o
+ .debug_loc     0x00003bd0       0x49 obj/USBTask.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x560
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x48 obj/Joystick.o
+ .debug_ranges  0x00000048       0x10 obj/Descriptors.o
+ .debug_ranges  0x00000058       0xd0 obj/HIDParser.o
+ .debug_ranges  0x00000128       0x10 obj/Device_AVR8.o
+ .debug_ranges  0x00000138      0x2d0 obj/EndpointStream_AVR8.o
+ .debug_ranges  0x00000408       0x90 obj/Endpoint_AVR8.o
+ .debug_ranges  0x00000498       0x20 obj/USBController_AVR8.o
+ .debug_ranges  0x000004b8       0x20 obj/USBInterrupt_AVR8.o
+ .debug_ranges  0x000004d8       0x30 obj/ConfigDescriptors.o
+ .debug_ranges  0x00000508       0x28 obj/DeviceStandardReq.o
+ .debug_ranges  0x00000530       0x20 obj/Events.o
+ .debug_ranges  0x00000550       0x10 obj/USBTask.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Joystick.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+CALLBACK_HIDParser_FilterHIDReportItem            obj/HIDParser.o
+CALLBACK_USB_GetDescriptor                        obj/Descriptors.o
+                                                  obj/DeviceStandardReq.o
+ConfigurationDescriptor                           obj/Descriptors.o
+DeviceDescriptor                                  obj/Descriptors.o
+EVENT_USB_Device_ConfigurationChanged             obj/Joystick.o
+                                                  obj/DeviceStandardReq.o
+EVENT_USB_Device_Connect                          obj/Joystick.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_ControlRequest                   obj/Joystick.o
+                                                  obj/DeviceStandardReq.o
+EVENT_USB_Device_Disconnect                       obj/Joystick.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_Reset                            obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_StartOfFrame                     obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_Suspend                          obj/Events.o
+EVENT_USB_Device_WakeUp                           obj/Events.o
+Endpoint_ClearEndpoints                           obj/Endpoint_AVR8.o
+Endpoint_ClearStatusStage                         obj/Endpoint_AVR8.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_ConfigureEndpointTable                   obj/Endpoint_AVR8.o
+Endpoint_ConfigureEndpoint_Prv                    obj/Endpoint_AVR8.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+                                                  obj/Joystick.o
+Endpoint_Discard_Stream                           obj/EndpointStream_AVR8.o
+Endpoint_Null_Stream                              obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_BE                  obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_LE                  obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_BE                   obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_LE                   obj/EndpointStream_AVR8.o
+Endpoint_Read_EStream_BE                          obj/EndpointStream_AVR8.o
+Endpoint_Read_EStream_LE                          obj/EndpointStream_AVR8.o
+Endpoint_Read_Stream_BE                           obj/EndpointStream_AVR8.o
+Endpoint_Read_Stream_LE                           obj/EndpointStream_AVR8.o
+                                                  obj/Joystick.o
+Endpoint_WaitUntilReady                           obj/Endpoint_AVR8.o
+                                                  obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_BE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_LE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_BE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_LE                 obj/EndpointStream_AVR8.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_Write_Control_Stream_BE                  obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_Stream_LE                  obj/EndpointStream_AVR8.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_Write_EStream_BE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_EStream_LE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_PStream_BE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_PStream_LE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_Stream_BE                          obj/EndpointStream_AVR8.o
+Endpoint_Write_Stream_LE                          obj/EndpointStream_AVR8.o
+                                                  obj/Joystick.o
+GetNextReport                                     obj/Joystick.o
+HID_Task                                          obj/Joystick.o
+JoystickReport                                    obj/Descriptors.o
+LanguageString                                    obj/Descriptors.o
+ManufacturerString                                obj/Descriptors.o
+ProductString                                     obj/Descriptors.o
+SetupHardware                                     obj/Joystick.o
+USB_ControlRequest                                obj/USBTask.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/Endpoint_AVR8.o
+                                                  obj/EndpointStream_AVR8.o
+USB_DeviceState                                   obj/USBTask.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+                                                  obj/Endpoint_AVR8.o
+                                                  obj/EndpointStream_AVR8.o
+                                                  obj/Joystick.o
+USB_Device_ConfigurationNumber                    obj/DeviceStandardReq.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_Device_CurrentlySelfPowered                   obj/DeviceStandardReq.o
+                                                  obj/USBController_AVR8.o
+USB_Device_ProcessControlRequest                  obj/DeviceStandardReq.o
+                                                  obj/USBTask.o
+USB_Device_RemoteWakeupEnabled                    obj/DeviceStandardReq.o
+                                                  obj/USBController_AVR8.o
+USB_Device_SendRemoteWakeup                       obj/Device_AVR8.o
+USB_Disable                                       obj/USBController_AVR8.o
+USB_Event_Stub                                    obj/Events.o
+USB_Event_Stub_2                                  obj/Events.o
+USB_Event_Stub_3                                  obj/Events.o
+USB_GetHIDReportItemInfo                          obj/HIDParser.o
+USB_GetHIDReportSize                              obj/HIDParser.o
+USB_GetNextDescriptorComp                         obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfType                       obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeAfter                  obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeBefore                 obj/ConfigDescriptors.o
+USB_INT_ClearAllInterrupts                        obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_INT_DisableAllInterrupts                      obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_Init                                          obj/USBController_AVR8.o
+                                                  obj/Joystick.o
+USB_IsInitialized                                 obj/USBTask.o
+                                                  obj/USBController_AVR8.o
+USB_ProcessHIDReport                              obj/HIDParser.o
+USB_ResetInterface                                obj/USBController_AVR8.o
+USB_SetHIDReportItemInfo                          obj/HIDParser.o
+USB_USBTask                                       obj/USBTask.o
+                                                  obj/EndpointStream_AVR8.o
+                                                  obj/Joystick.o
+__bad_interrupt                                   /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__bss_end                                         /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+__data_start                                      /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_clear_bss.o)
+                                                  obj/USBTask.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/Joystick.o
+__do_copy_data                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_copy_data.o)
+                                                  obj/Joystick.o
+__eerd_byte_m16u2                                 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eerd_byte_atmega16u2.o)
+                                                  obj/EndpointStream_AVR8.o
+__eeupd_byte_m16u2                                /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+                                                  obj/EndpointStream_AVR8.o
+__eeupd_r18_m16u2                                 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/libc.a(eeupd_byte_atmega16u2.o)
+__heap_end                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__init                                            /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__mulhi3                                          /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_mulhi3.o)
+                                                  obj/HIDParser.o
+                                                  obj/Joystick.o
+__stack                                           /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_1                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_10                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_11                                       obj/USBInterrupt_AVR8.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_12                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_13                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_14                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_15                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_16                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_17                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_18                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_19                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_2                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_20                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_21                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_22                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_23                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_24                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_25                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_26                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_27                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_28                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_3                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_4                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_5                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_6                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_7                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_8                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_9                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vector_default                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+__vectors                                         /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+_exit                                             /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+bufindex                                          obj/Joystick.o
+duration_count                                    obj/Joystick.o
+echoes                                            obj/Joystick.o
+exit                                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr35/libgcc.a(_exit.o)
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+last_report                                       obj/Joystick.o
+main                                              obj/Joystick.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr35/crtm16u2.o
+portsval                                          obj/Joystick.o
+report_count                                      obj/Joystick.o
+state                                             obj/Joystick.o
+xpos                                              obj/Joystick.o
+ypos                                              obj/Joystick.o
