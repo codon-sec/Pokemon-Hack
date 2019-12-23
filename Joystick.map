@@ -794,39 +794,39 @@ END GROUP
  .debug_frame   0x00000844       0x44 obj/Events.o
  .debug_frame   0x00000888       0x2c obj/USBTask.o
 
-.debug_str      0x00000000     0x25b2
+.debug_str      0x00000000     0x259a
  *(.debug_str)
- .debug_str     0x00000000      0x772 obj/Joystick.o
-                                0x7cf (size before relaxing)
- .debug_str     0x00000772      0x772 obj/Descriptors.o
+ .debug_str     0x00000000      0x75a obj/Joystick.o
+                                0x7b7 (size before relaxing)
+ .debug_str     0x0000075a      0x772 obj/Descriptors.o
                                 0x92e (size before relaxing)
- .debug_str     0x00000ee4      0x49e obj/HIDParser.o
+ .debug_str     0x00000ecc      0x49e obj/HIDParser.o
                                 0x6cc (size before relaxing)
- .debug_str     0x00001382       0x78 obj/Device_AVR8.o
+ .debug_str     0x0000136a       0x78 obj/Device_AVR8.o
                                 0x208 (size before relaxing)
- .debug_str     0x000013fa      0x471 obj/EndpointStream_AVR8.o
+ .debug_str     0x000013e2      0x471 obj/EndpointStream_AVR8.o
                                 0x877 (size before relaxing)
- .debug_str     0x0000186b      0x26c obj/Endpoint_AVR8.o
+ .debug_str     0x00001853      0x26c obj/Endpoint_AVR8.o
                                 0x62a (size before relaxing)
- .debug_str     0x00001ad7       0x2e obj/Host_AVR8.o
+ .debug_str     0x00001abf       0x2e obj/Host_AVR8.o
                                 0x1a7 (size before relaxing)
- .debug_str     0x00001b05       0x34 obj/PipeStream_AVR8.o
+ .debug_str     0x00001aed       0x34 obj/PipeStream_AVR8.o
                                 0x1ad (size before relaxing)
- .debug_str     0x00001b39       0x2e obj/Pipe_AVR8.o
+ .debug_str     0x00001b21       0x2e obj/Pipe_AVR8.o
                                 0x1a7 (size before relaxing)
- .debug_str     0x00001b67      0x239 obj/USBController_AVR8.o
+ .debug_str     0x00001b4f      0x239 obj/USBController_AVR8.o
                                 0x540 (size before relaxing)
- .debug_str     0x00001da0       0xd4 obj/USBInterrupt_AVR8.o
+ .debug_str     0x00001d88       0xd4 obj/USBInterrupt_AVR8.o
                                 0x4eb (size before relaxing)
- .debug_str     0x00001e74      0x228 obj/ConfigDescriptors.o
+ .debug_str     0x00001e5c      0x228 obj/ConfigDescriptors.o
                                 0x3f0 (size before relaxing)
- .debug_str     0x0000209c      0x431 obj/DeviceStandardReq.o
+ .debug_str     0x00002084      0x431 obj/DeviceStandardReq.o
                                 0x9b9 (size before relaxing)
- .debug_str     0x000024cd       0x57 obj/Events.o
+ .debug_str     0x000024b5       0x57 obj/Events.o
                                 0x1d8 (size before relaxing)
- .debug_str     0x00002524       0x2f obj/HostStandardReq.o
+ .debug_str     0x0000250c       0x2f obj/HostStandardReq.o
                                 0x1a8 (size before relaxing)
- .debug_str     0x00002553       0x5f obj/USBTask.o
+ .debug_str     0x0000253b       0x5f obj/USBTask.o
                                 0x38f (size before relaxing)
 
 .debug_loc      0x00000000     0x3c19

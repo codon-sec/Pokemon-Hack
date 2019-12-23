@@ -18,7 +18,7 @@ exception of Home and Capture. Descriptor modification allows us to unlock
 these buttons for our use.
 */
 /*
-	無限W回収,レイドバグver(60秒)のコード 2019/12/22
+	無限W回収,レイドバグver(60秒)のコードを改良したい 2019/12/22
 */
 
 #include "Joystick.h"
@@ -73,11 +73,11 @@ static const command step[] = {
     { NOTHING,   30 },
     { NOTHING,   30 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { A,          5 }, // 設定選択
     { NOTHING,   30 },
     { DOWN,       5 },
@@ -111,13 +111,13 @@ static const command step[] = {
     { A,          5 }, // 設定>本体 選択
     { NOTHING,   30 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { A,          5 }, // 日付と時刻選択
     { NOTHING,   30 },
     { A,          5 },
@@ -162,15 +162,15 @@ static const command step[] = {
     { HOME,       5 }, // ホームへ
     { NOTHING,   30 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { RIGHT,      5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { A,          5 }, // 設定選択
     { NOTHING,   30 },
     { DOWN,       5 },
@@ -204,13 +204,13 @@ static const command step[] = {
     { A,          5 }, // 設定>本体 選択
     { NOTHING,   30 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { DOWN,       5 },
-    { NOTHING,   30 },
+    { NOTHING,   10 },
     { A,          5 }, // 日付と時刻選択
     { NOTHING,   30 },
     { A,          5 },
